@@ -6,8 +6,6 @@ import bankImg from "../../Images/bankImg.jpg";
 import howItWorks from "../../Images/howItWorks.png";
 import { Link } from 'react-router-dom';
 
-
-
 export default function HomePage() {
     
     return (
