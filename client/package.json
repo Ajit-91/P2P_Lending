@@ -1,5 +1,6 @@
 {
-  "name": "truffle-client",
+  "name": "p2p-lending",
+  "homepage": "https://Ajit-91.github.io/P2P_Lending",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.0",
     "cloudinary-react": "^1.8.1",
+    "gh-pages": "^4.0.0",
     "js-sha1": "^0.6.0",
     "react": "^18.1.0",
     "react-bootstrap": "^2.5.0",
@@ -23,6 +25,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
