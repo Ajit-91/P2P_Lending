@@ -54,7 +54,7 @@ function NavbarCommon(props) {
     <nav className="navbar navbar-light navbar-expand-lg navbar-warning bg-warning" style={{ position: 'sticky', top: '0', zIndex: '5' }}>
       <div className="container-fluid">
         <img src={logo} alt="" style={{ width: '40px', marginRight: '1%', borderRadius : '50%'}} />
-        <Link className="navbar-brand" to="/" style={{ fontSize: 'larger', color: '#605902', fontWeight: 'bold' }}>Lend Defi</Link>
+        <Link className="navbar-brand" to="/" style={{ fontSize: 'larger', color: '#605902', fontWeight: 'bold' }}>LendDefi</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
